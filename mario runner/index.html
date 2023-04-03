@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>game</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div id="play">
+        <span style='--i: 1'>M</span>
+        <span style='--i: 2'>A</span>
+        <span style='--i: 3'>R</span>
+        <span style='--i: 4'>I</span>
+        <span style='--i: 5'>O</span>
+        <p id="title">RUNNER!</p>
+        <p id="instructions">Use the arrow keys to save Mario from being hit by the fireballs!</p>
+        <button type="button", id="startGame";>Start Game</button>
+    </div>
+    <div id="game", style="display: none;">
+        <div id="left"></div>
+        <div id="right"></div>
+        <div id="block"></div>
+        <div id="character"></div>
+        <div id="white"></div>
+        <p id="count"></p>
+    </div>
+    <div id="end", style="display: none;">
+        <p id="title2">GAME OVER</p>
+        <p id="finalScore">Score: </p>
+        <button type="button", id="restart";>Play Again</button>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
